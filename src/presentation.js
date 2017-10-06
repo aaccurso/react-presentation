@@ -9,6 +9,7 @@ import ExampleHero from './slides/example-slides/ExampleHero';
 import ExampleHeadings from './slides/example-slides/ExampleHeadings';
 import ExampleList from './slides/example-slides/ExampleList';
 import ExampleBlockQuote from './slides/example-slides/ExampleBlockQuote';
+import ReactLive from './slides/ReactLive';
 
 // Import theme
 import createTheme from 'spectacle/lib/themes/default';
@@ -31,6 +32,7 @@ export default class Presentation extends React.Component {
   render() {
     return (
       <Deck transition={['fade']} transitionDuration={500} theme={theme}>
+        <ReactLive/>
         <ExampleHero/>
         <ExampleHeadings/>
         <ExampleList/>
