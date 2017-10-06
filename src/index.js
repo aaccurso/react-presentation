@@ -1,7 +1,7 @@
 import React from 'react';
-import { render } from "react-dom";
+import { render } from 'react-dom';
 
-import Presentation from "./presentation";
+import Presentation from './presentation';
 import registerServiceWorker from './registerServiceWorker';
 
 const root = document.getElementById('root');

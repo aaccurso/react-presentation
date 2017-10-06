@@ -1,5 +1,5 @@
 // Import React
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 // Import Spectacle Core tags
 import {
@@ -7,12 +7,12 @@ import {
   BlockQuote,
   Cite,
   Quote
-} from "spectacle";
+} from 'spectacle';
 
 export default class ExampleBlockQuote extends Component {
   render() {
     return (
-      <Slide bgColor="secondary" textColor="primary">
+      <Slide bgColor='secondary' textColor='primary'>
         <BlockQuote>
           <Quote>Example Quote</Quote>
           <Cite>Author</Cite>
