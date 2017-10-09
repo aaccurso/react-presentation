@@ -71,17 +71,17 @@ const StyledError = styled(LiveError)`
 `;
 
 const code = (`
-<div>
-    <h1>React</h1>
-    <strong>Hello World!</strong>
-</div>
+render(
+  <h1>Hello, world!</h1>,
+  document.getElementById('root')
+);
 `).trim();
 
 export default class ReactLive extends Component {
   render() {
     return (
       <Slide bgColor='primary'>
-        <StyledProvider code={code}>
+        <StyledProvider code={code} noInline>
           <LiveWrapper>
             <StyledEditor/>
             <StyledPreview/>
