@@ -2,7 +2,7 @@
 import React from 'react';
 
 // Import Spectacle Core tags
-import { Deck } from 'spectacle';
+import { Deck } from 'aaccurso-spectacle';
 
 // Import components
 import ExampleHero from './slides/example-slides/ExampleHero';

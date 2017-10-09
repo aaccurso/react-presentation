@@ -6,7 +6,7 @@ import {
   Heading,
   Slide,
   Text
-} from 'spectacle';
+} from 'aaccurso-spectacle';
 
 export default class ExampleHero extends Component {
   render() {

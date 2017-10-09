@@ -7,7 +7,7 @@ import {
   BlockQuote,
   Cite,
   Quote
-} from 'spectacle';
+} from 'aaccurso-spectacle';
 
 export default class ExampleBlockQuote extends Component {
   render() {

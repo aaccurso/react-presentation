@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 // Import Spectacle Core tags
-import { Slide } from 'spectacle';
+import { Slide } from 'aaccurso-spectacle';
 
 // Import Live React tags
 import {
@@ -70,7 +70,11 @@ const StyledError = styled(LiveError)`
   color: ${foreground};
 `;
 
+//language=JavaScript
 const code = (`
+// import React from 'react';
+// import { render } from 'react-dom';
+
 render(
   <h1>Hello, world!</h1>,
   document.getElementById('root')

@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "aaccurso-spectacle": "^2.3.0",
     "normalize.css": "^7.0.0",
     "polished": "^1.7.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-live": "^1.7.1",
-    "spectacle": "aaccurso/spectacle",
     "spectacle-scripts": "1.0.15",
     "styled-components": "^2.2.1"
   },

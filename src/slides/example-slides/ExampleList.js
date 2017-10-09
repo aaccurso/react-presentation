@@ -7,7 +7,7 @@ import {
   Slide,
   List,
   ListItem
-} from 'spectacle';
+} from 'aaccurso-spectacle';
 
 export default class ExampleList extends Component {
   render() {
