@@ -1,4 +1,6 @@
+// Import React related modules
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 // Import Spectacle Core tags
 import { Slide } from 'aaccurso-spectacle';
@@ -70,29 +72,21 @@ const StyledError = styled(LiveError)`
   color: ${foreground};
 `;
 
-//language=JavaScript
-const code = (`
-// import React from 'react';
-// import { render } from 'react-dom';
-
-render(
-  <h1>Hello, world!</h1>,
-  document.getElementById('root')
-);
-`).trim();
-
 export default class ReactLive extends Component {
+  static propTypes = {
+    code: PropTypes.string.isRequired,
+    noInline: PropTypes.bool
+  };
+
   render() {
     return (
-      <Slide bgColor='primary'>
-        <StyledProvider code={code} noInline>
-          <LiveWrapper>
-            <StyledEditor/>
-            <StyledPreview/>
-          </LiveWrapper>
-          <StyledError/>
-        </StyledProvider>
-      </Slide>
+      <StyledProvider {...this.props}>
+        <LiveWrapper>
+          <StyledEditor/>
+          <StyledPreview/>
+        </LiveWrapper>
+        <StyledError/>
+      </StyledProvider>
     );
   }
 }
