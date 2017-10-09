@@ -2,11 +2,7 @@
 import React, { Component } from 'react';
 
 // Import Spectacle Core tags
-import {
-  Heading,
-  Slide,
-  Text
-} from 'aaccurso-spectacle';
+import { Slide } from 'aaccurso-spectacle';
 
 // Import components
 import ReactLive from '../components/ReactLive';

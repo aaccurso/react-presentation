@@ -2,9 +2,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-// Import Spectacle Core tags
-import { Slide } from 'aaccurso-spectacle';
-
 // Import Live React tags
 import {
   LiveProvider,

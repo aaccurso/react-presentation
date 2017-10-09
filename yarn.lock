@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-aaccurso-spectacle@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/aaccurso-spectacle/-/aaccurso-spectacle-2.3.0.tgz#179c5c510a6711fbc1c37d83ea1cac6c7b9aecc2"
+aaccurso-spectacle@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/aaccurso-spectacle/-/aaccurso-spectacle-2.3.1.tgz#2d5d2394de73aabc9939826211faf64bfecaee8f"
   dependencies:
     component-playground "^2.0.0"
     history "^4.6.1"
