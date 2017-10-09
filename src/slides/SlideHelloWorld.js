@@ -12,14 +12,15 @@ import {
 import ReactLive from '../components/ReactLive';
 
 //language=JavaScript
-const code = (`
+const code = `
 // import React from 'react';
 // import { render } from 'react-dom';
 
 render(
   <h1>Hello, world!</h1>,
   document.getElementById('root')
-);`).trim();
+);
+`;
 
 export default class SlideHelloWorld extends Component {
   render() {

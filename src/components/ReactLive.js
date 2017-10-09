@@ -79,8 +79,10 @@ export default class ReactLive extends Component {
   };
 
   render() {
+    const { code } = this.props;
+
     return (
-      <StyledProvider {...this.props}>
+      <StyledProvider {...this.props} code={code.trim()}>
         <LiveWrapper>
           <StyledEditor/>
           <StyledPreview/>
