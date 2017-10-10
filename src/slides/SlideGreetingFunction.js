@@ -24,7 +24,7 @@ render(<Greeting name={'Alan'}/>);
 export default class SlideGreetingFunction extends Component {
   render() {
     return (
-      <Slide bgColor='primary'>
+      <Slide>
         <Heading size={3}>Props</Heading>
         <ReactLive code={code} noInline/>
       </Slide>

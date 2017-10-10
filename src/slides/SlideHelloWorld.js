@@ -23,7 +23,7 @@ render(
 export default class SlideHelloWorld extends Component {
   render() {
     return (
-      <Slide bgColor='primary'>
+      <Slide>
         <Heading size={3}>JSX</Heading>
         <Text>JSX produces <em>React elements</em>. You can embed any <strong>JavaScript expression</strong> in JSX by wrapping it in curly braces.</Text>
         <ReactLive code={code} noInline/>

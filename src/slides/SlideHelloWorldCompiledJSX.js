@@ -27,7 +27,7 @@ render(
 export default class SlideHelloWorldCompiledJSX extends Component {
   render() {
     return (
-      <Slide bgColor='primary'>
+      <Slide>
         <Heading size={3}>React.createElement()</Heading>
         <ReactLive code={code} noInline/>
       </Slide>
