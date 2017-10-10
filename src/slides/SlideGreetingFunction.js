@@ -10,9 +10,12 @@ import ReactLive from '../components/ReactLive';
 //language=JavaScript
 const code = `
 // import React from 'react';
+// import { render } from 'react-dom';
 
 const Greeting = (props) => (
-  <h1>Hello {props.name}!</h1>
+  <h1 className="greeting">
+    Hello {props.name}!
+  </h1>
 );
 
 render(<Greeting name={'Alan'}/>);
@@ -22,7 +25,7 @@ export default class SlideGreetingFunction extends Component {
   render() {
     return (
       <Slide bgColor='primary'>
-        <Heading size={2}>Props</Heading>
+        <Heading size={3}>Props</Heading>
         <ReactLive code={code} noInline/>
       </Slide>
     );

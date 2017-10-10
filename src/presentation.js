@@ -20,15 +20,13 @@ import createTheme from 'aaccurso-spectacle/lib/themes/default';
 require('normalize.css');
 require('aaccurso-spectacle/lib/themes/default/index.css');
 
-const theme = createTheme({
-  primary: 'white',
-  secondary: '#1F2022',
-  tertiary: '#03A9FC',
-  quartenary: '#CECECE'
-}, {
-  primary: 'Montserrat',
+const colors = {};
+const fonts = {
+  primary: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
   secondary: 'Helvetica'
-});
+};
+
+const theme = createTheme(colors, fonts);
 
 export default class Presentation extends React.Component {
   render() {

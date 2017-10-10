@@ -14,7 +14,7 @@ const code = `
 
 const HelloWorld = React.createElement(
   'h1',
-  {className: 'greeting'},
+  { className: 'greeting' },
   'Hello, world!'
 );
 
@@ -28,7 +28,7 @@ export default class SlideHelloWorldCompiledJSX extends Component {
   render() {
     return (
       <Slide bgColor='primary'>
-        <Heading size={2}>React.createElement()</Heading>
+        <Heading size={3}>React.createElement()</Heading>
         <ReactLive code={code} noInline/>
       </Slide>
     );

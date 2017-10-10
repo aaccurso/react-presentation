@@ -19,7 +19,7 @@ const StyledProvider = styled(LiveProvider)`
   border-radius: ${polished.rem(3)};
   box-shadow: 1px 1px 20px rgba(20, 20, 20, 0.27);
   overflow: hidden;
-  margin-top: ${polished.rem(10)};
+  margin-top: ${polished.rem(16)};
   margin-bottom: ${polished.rem(100)};
 `;
 
@@ -47,8 +47,7 @@ const column = css`
 const StyledEditor = styled(LiveEditor)`
   background: ${lightGrey};
   font-family: 'Source Code Pro', monospace;
-  font-size: ${polished.rem(14)};
-  height: ${polished.rem(350)};
+  font-size: ${polished.rem(16)};
   overflow: scroll;
   ${column}
 `;

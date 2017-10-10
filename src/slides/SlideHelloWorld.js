@@ -13,7 +13,9 @@ const code = `
 // import { render } from 'react-dom';
 
 render(
-  <h1>Hello, world!</h1>,
+  <h1 className="greeting">
+    Hello, world!
+  </h1>,
   document.getElementById('root')
 );
 `;
@@ -22,7 +24,7 @@ export default class SlideHelloWorld extends Component {
   render() {
     return (
       <Slide bgColor='primary'>
-        <Heading size={2}>JSX</Heading>
+        <Heading size={3}>JSX</Heading>
         <Text>JSX produces <em>React elements</em>. You can embed any <strong>JavaScript expression</strong> in JSX by wrapping it in curly braces.</Text>
         <ReactLive code={code} noInline/>
       </Slide>
