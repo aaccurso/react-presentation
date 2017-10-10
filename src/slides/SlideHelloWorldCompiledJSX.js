@@ -10,19 +10,25 @@ import ReactLive from '../components/ReactLive';
 //language=JavaScript
 const code = `
 // import React from 'react';
+// import { render } from 'react-dom';
 
-const Greeting = (props) => (
-  <h1>Hello {props.name}!</h1>
+const HelloWorld = React.createElement(
+  'h1',
+  {className: 'greeting'},
+  'Hello, world!'
 );
 
-render(<Greeting name={'Alan'}/>);
+render(
+  HelloWorld,
+  document.getElementById('root')
+);
 `;
 
-export default class SlideGreetingFunction extends Component {
+export default class SlideHelloWorldCompiledJSX extends Component {
   render() {
     return (
       <Slide bgColor='primary'>
-        <Heading size={2}>Props</Heading>
+        <Heading size={2}>React.createElement()</Heading>
         <ReactLive code={code} noInline/>
       </Slide>
     );

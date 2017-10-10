@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 
 // Import Spectacle Core tags
-import { Slide } from 'aaccurso-spectacle';
+import { Slide, Heading, Text } from 'aaccurso-spectacle';
 
 // Import components
 import ReactLive from '../components/ReactLive';
@@ -22,6 +22,8 @@ export default class SlideHelloWorld extends Component {
   render() {
     return (
       <Slide bgColor='primary'>
+        <Heading size={2}>JSX</Heading>
+        <Text>JSX produces <em>React elements</em>. You can embed any <strong>JavaScript expression</strong> in JSX by wrapping it in curly braces.</Text>
         <ReactLive code={code} noInline/>
       </Slide>
     );
