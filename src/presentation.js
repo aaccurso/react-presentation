@@ -16,11 +16,16 @@ import ExampleBlockQuote from './slides/example-slides/ExampleBlockQuote';
 // Import theme
 import createTheme from 'aaccurso-spectacle/lib/themes/default';
 
+// Import colors
+import { react } from './utils/colors';
+
 // Require CSS
 require('normalize.css');
 require('aaccurso-spectacle/lib/themes/default/index.css');
 
-const colors = {};
+const colors = {
+  primary: react
+};
 const fonts = {
   primary: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
   secondary: 'Helvetica'
