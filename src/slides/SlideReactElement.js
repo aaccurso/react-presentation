@@ -9,7 +9,7 @@ import ReactEditor from '../components/ReactEditor';
 
 //language=JavaScript
 const code = `
-// import React from 'react';
+import React from 'react';
 
 const HelloWorld = React.createElement(
   'h1',

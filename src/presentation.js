@@ -21,6 +21,7 @@ import { primary, secondary } from './utils/colors';
 require('normalize.css');
 require('aaccurso-spectacle/lib/themes/default/index.css');
 
+// Configure presentation theme
 const colors = {
   primary,
   secondary
@@ -29,7 +30,6 @@ const fonts = {
   primary: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
   secondary: 'Helvetica'
 };
-
 const theme = createTheme(colors, fonts);
 
 export default class Presentation extends React.Component {
