@@ -11,9 +11,9 @@ import {
 } from 'react-live';
 
 // Import styled components
-import styled, { css } from 'styled-components'
+import styled, { css } from 'styled-components';
 import { lightGrey, red, foreground } from '../utils/colors';
-import * as polished from 'polished'
+import * as polished from 'polished';
 
 const StyledProvider = styled(LiveProvider)`
   border-radius: ${polished.rem(3)};
