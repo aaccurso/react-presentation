@@ -1,6 +1,7 @@
 import * as polished from 'polished';
 
-export const react = '#61dafb';
+export const primary = '#61dafb';
+export const secondary = '#1F2127';
 export const foreground = '#f8f8f2';
 export const red = '#ff5555';
 export const grey = '#282a36';

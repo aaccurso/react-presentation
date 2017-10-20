@@ -11,8 +11,8 @@ import {
 export default class ExampleHero extends Component {
   render() {
     return (
-      <Slide bgColor='primary'>
-        <Heading size={1} fit lineHeight={1} textColor='secondary'>
+      <Slide bgColor='secondary'>
+        <Heading size={1} fit lineHeight={1} textColor='primary'>
           React
         </Heading>
         <Text textColor='tertiary' size={1} fit bold>
