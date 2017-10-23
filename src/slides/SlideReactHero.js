@@ -8,7 +8,7 @@ import {
   Text
 } from 'aaccurso-spectacle';
 
-export default class ExampleHero extends Component {
+export default class SlideReactHero extends Component {
   render() {
     return (
       <Slide bgColor='secondary'>

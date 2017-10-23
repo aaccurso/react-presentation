@@ -7,8 +7,8 @@ import { Deck } from 'aaccurso-spectacle';
 // Import slides
 import SlideReactHero from './slides/SlideReactHero';
 import SlideReactElement from './slides/SlideReactElement';
-import SlideHelloWorld from './slides/SlideHelloWorld';
-import SlideHelloWorldCompiledJSX from './slides/SlideHelloWorldCompiledJSX';
+import SlideHelloWorldJSX from './slides/SlideHelloWorldJSX';
+import SlideReactDOM from './slides/SlideReactDOM';
 import SlideHelloWorldFunction from './slides/SlideGreetingFunction';
 
 // Import theme
@@ -38,8 +38,8 @@ export default class Presentation extends React.Component {
       <Deck transition={['fade']} transitionDuration={500} theme={theme} progress={'bar'}>
         <SlideReactHero/>
         <SlideReactElement/>
-        <SlideHelloWorld/>
-        <SlideHelloWorldCompiledJSX/>
+        <SlideReactDOM/>
+        <SlideHelloWorldJSX/>
         <SlideHelloWorldFunction/>
       </Deck>
     );

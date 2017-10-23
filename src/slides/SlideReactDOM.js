@@ -12,20 +12,24 @@ const code = `
 // import React from 'react';
 // import { render } from 'react-dom';
 
+const HelloWorld = React.createElement(
+  'h1',
+  { className: 'greeting' },
+  'Hello, world!'
+);
+
 render(
-  <h1 className="greeting">
-    Hello, world!
-  </h1>,
-  document.getElementById('root')
+  HelloWorld, // React element
+  document.getElementById('root') // DOM container
 );
 `;
 
-export default class SlideHelloWorld extends Component {
+export default class SlideReactDOM extends Component {
   render() {
     return (
       <Slide>
-        <Heading size={3}>JSX</Heading>
-        <Text>JSX produces <em>React elements</em>. You can embed any <strong>JavaScript expression</strong> in JSX by wrapping it in curly braces.</Text>
+        <Heading size={3}>ReactDOM</Heading>
+        <Text>Takes care of <strong>rendering</strong> and updating the DOM to match the React elements.</Text>
         <ReactLive code={code} noInline/>
       </Slide>
     );

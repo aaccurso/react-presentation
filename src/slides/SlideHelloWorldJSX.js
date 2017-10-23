@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 
 // Import Spectacle Core tags
-import { Slide, Heading } from 'aaccurso-spectacle';
+import { Slide, Heading, Text } from 'aaccurso-spectacle';
 
 // Import components
 import ReactLive from '../components/ReactLive';
@@ -12,10 +12,10 @@ const code = `
 // import React from 'react';
 // import { render } from 'react-dom';
 
-const HelloWorld = React.createElement(
-  'h1',
-  { className: 'greeting' },
-  'Hello, world!'
+const HelloWorld = (
+  <h1 className="greeting">
+    Hello, world!
+  </h1>
 );
 
 render(
@@ -24,11 +24,12 @@ render(
 );
 `;
 
-export default class SlideHelloWorldCompiledJSX extends Component {
+export default class SlideHelloWorldJSX extends Component {
   render() {
     return (
       <Slide>
-        <Heading size={3}>React.createElement()</Heading>
+        <Heading size={3}>JSX</Heading>
+        <Text>JSX produces <em>React elements</em>. You can embed any <strong>JavaScript expression</strong> in JSX by wrapping it in curly braces.</Text>
         <ReactLive code={code} noInline/>
       </Slide>
     );
