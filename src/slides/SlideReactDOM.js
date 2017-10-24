@@ -18,9 +18,11 @@ const HelloWorld = React.createElement(
   'Hello, world!'
 );
 
+const appRoot = document.getElementById('root');
+
 render(
   HelloWorld, // React element
-  document.getElementById('root') // DOM container
+  appRoot // DOM Container
 );
 `;
 

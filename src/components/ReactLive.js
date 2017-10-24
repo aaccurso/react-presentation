@@ -21,6 +21,8 @@ const StyledProvider = styled(LiveProvider)`
   overflow: hidden;
   margin-top: ${polished.rem(16)};
   margin-bottom: ${polished.rem(100)};
+  margin-left: -${polished.rem(50)};
+  margin-right: -${polished.rem(50)};
 `;
 
 const LiveWrapper = styled.div`

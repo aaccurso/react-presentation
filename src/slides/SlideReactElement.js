@@ -23,7 +23,7 @@ export default class SlideReactElement extends Component {
     return (
       <Slide>
         <Heading size={3}>React Element</Heading>
-        <Text>Elements are the smallest building blocks of React apps. Unlike browser DOM elements, React elements are immutable plain objects, and are cheap to create.</Text>
+        <Text>The smallest building block of React apps. Unlike browser DOM elements, React elements are <strong>immutable plain objects</strong>, and are cheap to create.</Text>
         <ReactEditor code={code}/>
       </Slide>
     );

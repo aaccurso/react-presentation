@@ -9,9 +9,6 @@ import ReactLive from '../components/ReactLive';
 
 //language=JavaScript
 const code = `
-// import React from 'react';
-// import { render } from 'react-dom';
-
 const HelloWorld = (
   <h1 className="greeting">
     Hello, world!
