@@ -13,16 +13,16 @@ import {
 // Import styled components
 import styled, { css } from 'styled-components';
 import { lightGrey, red, foreground } from '../utils/colors';
-import * as polished from 'polished';
+import { rem } from 'polished';
 
 const StyledProvider = styled(LiveProvider)`
-  border-radius: ${polished.rem(3)};
+  border-radius: ${rem(3)};
   box-shadow: 1px 1px 20px rgba(20, 20, 20, 0.27);
   overflow: hidden;
-  margin-top: ${polished.rem(16)};
-  margin-bottom: ${polished.rem(100)};
-  margin-left: -${polished.rem(50)};
-  margin-right: -${polished.rem(50)};
+  margin-top: ${rem(16)};
+  margin-bottom: ${rem(100)};
+  margin-left: -${rem(50)};
+  margin-right: -${rem(50)};
 `;
 
 const LiveWrapper = styled.div`
@@ -49,7 +49,7 @@ const column = css`
 const StyledEditor = styled(LiveEditor)`
   background: ${lightGrey};
   font-family: 'Source Code Pro', monospace;
-  font-size: ${polished.rem(16)};
+  font-size: ${rem(16)};
   overflow: scroll;
   ${column}
 `;
@@ -66,7 +66,7 @@ const StyledPreview = styled(LivePreview)`
 
 const StyledError = styled(LiveError)`
   display: block;
-  padding: ${polished.rem(8)};
+  padding: ${rem(8)};
   background: ${red};
   color: ${foreground};
 `;

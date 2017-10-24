@@ -5,22 +5,11 @@ import React, { Component } from 'react';
 import {
   Heading,
   Slide,
-  Text,
-  Link
+  Text
 } from 'aaccurso-spectacle';
 
-// Import styled components
-import styled from 'styled-components';
-import { tertiary } from '../utils/colors';
-
-const StyledLink = styled(Link)`
-  color: ${tertiary};
-  border-bottom: 1px dashed ${tertiary};
-
-  &:hover {
-    border-bottom-style: solid;
-  }
-`;
+// Import components
+import AsideLink from '../components/AsideLink';
 
 export default class SlideReactHero extends Component {
   render() {
@@ -30,7 +19,7 @@ export default class SlideReactHero extends Component {
           React
         </Heading>
         <Text textColor='tertiary' fit>
-          A <StyledLink href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript" target="_blank">JavaScript</StyledLink> library for building user interfaces
+          A <AsideLink href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript" target="_blank">JavaScript</AsideLink> library for building user interfaces
         </Text>
       </Slide>
     );
