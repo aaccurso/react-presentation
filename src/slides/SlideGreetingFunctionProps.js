@@ -27,8 +27,9 @@ export default class SlideGreetingFunctionProps extends Component {
     return (
       <Slide>
         <Heading size={3}>Props</Heading>
-          <Text>Components are like <AsideLink color={secondary} to="https://reactjs.org/docs/components-and-props.html#props-are-read-only" target="_blank">pure</AsideLink> JavaScript <strong>functions</strong>. They accept arbitrary inputs (props) and return <em>React elements</em>.
-          </Text>
+        <Text>
+          Components are like <AsideLink color={secondary} to="https://reactjs.org/docs/components-and-props.html#props-are-read-only" target="_blank">pure</AsideLink> JavaScript <strong>functions</strong>. They accept arbitrary inputs (props) and return <em>React elements</em>.
+        </Text>
         <ReactLive code={code} noInline/>
       </Slide>
     );
