@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "aaccurso-spectacle": "^2.3.3",
+    "aaccurso-spectacle": "^4.0.5",
     "normalize.css": "^7.0.0",
     "polished": "^1.7.0",
     "prop-types": "^15.6.0",

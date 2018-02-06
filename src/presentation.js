@@ -19,7 +19,6 @@ import { primary, secondary, tertiary } from './utils/colors';
 
 // Require CSS
 require('normalize.css');
-require('aaccurso-spectacle/lib/themes/default/index.css');
 
 // Configure presentation theme
 const colors = { primary, secondary, tertiary };
