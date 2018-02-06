@@ -9,7 +9,7 @@ import SlideReactHero from './slides/SlideReactHero';
 import SlideReactElement from './slides/SlideReactElement';
 import SlideHelloWorldJSX from './slides/SlideHelloWorldJSX';
 import SlideReactDOM from './slides/SlideReactDOM';
-import SlideHelloWorldFunction from './slides/SlideGreetingFunction';
+import SlideGreetingFunctionProps from './slides/SlideGreetingFunctionProps';
 
 // Import theme
 import createTheme from 'aaccurso-spectacle/lib/themes/default';
@@ -18,7 +18,7 @@ import createTheme from 'aaccurso-spectacle/lib/themes/default';
 import { primary, secondary, tertiary } from './utils/colors';
 
 // Require CSS
-require('normalize.css');
+import 'normalize.css';
 
 // Configure presentation theme
 const colors = { primary, secondary, tertiary };
@@ -36,7 +36,7 @@ export default class Presentation extends Component {
         <SlideReactElement/>
         <SlideReactDOM/>
         <SlideHelloWorldJSX/>
-        <SlideHelloWorldFunction/>
+        <SlideGreetingFunctionProps/>
       </Deck>
     );
   }

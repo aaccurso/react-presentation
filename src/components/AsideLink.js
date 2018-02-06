@@ -11,6 +11,7 @@ const StyledLink = styled(Link)`
   border-bottom: 1px dashed ${props => props.color || tertiary};
   position: relative;
   margin-right: ${em(8)};
+  cursor: pointer;
 
   &:hover {
     border-bottom-style: solid;
