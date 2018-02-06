@@ -28,7 +28,7 @@ class Timer extends React.Component {
 
     tick() {
         this.setState(
-            prevState => ({ timer: prevState.timer + 1 })
+            ({timer}) => ({ timer: timer + 1 })
         );
     }
 
