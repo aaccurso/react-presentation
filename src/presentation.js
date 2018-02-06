@@ -10,7 +10,7 @@ import SlideReactElement from './slides/SlideReactElement';
 import SlideHelloWorldJSX from './slides/SlideHelloWorldJSX';
 import SlideReactDOM from './slides/SlideReactDOM';
 import SlideGreetingFunctionProps from './slides/SlideGreetingFunctionProps';
-import SlideState from './slides/SlideState'
+import SlideLifecycleHooks from './slides/SlideLifecycleHooks'
 
 // Import theme
 import createTheme from 'aaccurso-spectacle/lib/themes/default';
@@ -38,7 +38,7 @@ export default class Presentation extends Component {
         <SlideReactDOM/>
         <SlideHelloWorldJSX/>
         <SlideGreetingFunctionProps/>
-        <SlideState/>
+        <SlideLifecycleHooks/>
       </Deck>
     );
   }

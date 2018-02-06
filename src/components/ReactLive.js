@@ -18,9 +18,10 @@ import { rem } from 'polished';
 const StyledProvider = styled(LiveProvider)`
   border-radius: ${rem(3)};
   box-shadow: 1px 1px 20px rgba(20, 20, 20, 0.27);
-  overflow: hidden;
+  overflow: auto;
+  max-height: 400px;
   margin-top: ${rem(16)};
-  margin-bottom: ${rem(100)};
+  margin-bottom: ${rem(16)};
   margin-left: -${rem(50)};
   margin-right: -${rem(50)};
 `;
