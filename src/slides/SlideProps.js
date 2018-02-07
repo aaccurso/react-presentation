@@ -15,14 +15,14 @@ import { secondary } from '../utils/colors';
 const code = `
 const Greeting = (props) => (
   <h1 className="greeting">
-    Hello {props.name}!
+    Hello, {props.name}!
   </h1>
 );
 
 render(<Greeting name={'Alan'}/>);
 `;
 
-export default class SlideGreetingFunctionProps extends Component {
+export default class SlideProps extends Component {
   render() {
     return (
       <Slide>

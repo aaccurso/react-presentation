@@ -7,9 +7,9 @@ import { Deck } from 'aaccurso-spectacle';
 // Import slides
 import SlideReactHero from './slides/SlideReactHero';
 import SlideReactElement from './slides/SlideReactElement';
-import SlideHelloWorldJSX from './slides/SlideHelloWorldJSX';
+import SlideJSX from './slides/SlideJSX';
 import SlideReactDOM from './slides/SlideReactDOM';
-import SlideGreetingFunctionProps from './slides/SlideGreetingFunctionProps';
+import SlideProps from './slides/SlideProps';
 import SlideLifecycleHooks from './slides/SlideLifecycleHooks'
 import SlideStateAndEvents from './slides/SlideStateAndEvents';
 
@@ -37,8 +37,8 @@ export default class Presentation extends Component {
         <SlideReactHero/>
         <SlideReactElement/>
         <SlideReactDOM/>
-        <SlideHelloWorldJSX/>
-        <SlideGreetingFunctionProps/>
+        <SlideJSX/>
+        <SlideProps/>
         <SlideStateAndEvents/>
         <SlideLifecycleHooks/>
       </Deck>

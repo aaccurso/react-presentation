@@ -21,7 +21,7 @@ render(
 );
 `;
 
-export default class SlideHelloWorldJSX extends Component {
+export default class SlideJSX extends Component {
   render() {
     return (
       <Slide>
