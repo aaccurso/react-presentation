@@ -25,6 +25,7 @@ class Counter extends React.Component {
     }
 
     render() {
+        // @TODO: show message when counter reaches 10
         return (
             <button onClick={this.handleClick}>
                 {this.state.counter}

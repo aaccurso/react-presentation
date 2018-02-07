@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "/react-presentation/build/",
   "dependencies": {
+    "@storybook/addon-info": "^3.3.12",
+    "@storybook/react": "^3.3.12",
     "aaccurso-spectacle": "^4.0.5",
     "normalize.css": "^7.0.0",
     "polished": "^1.7.0",
@@ -18,6 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start:storybook": "start-storybook -p 9999 -c .storybook",
+    "build:storybook": "build-storybook -c .storybook -o storybook"
   }
 }
