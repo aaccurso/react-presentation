@@ -19,7 +19,7 @@ const StyledProvider = styled(LiveProvider)`
   border-radius: ${rem(3)};
   box-shadow: 1px 1px 20px rgba(20, 20, 20, 0.27);
   overflow: auto;
-  max-height: 500px;
+  max-height: 400px;
   margin-top: ${rem(16)};
   margin-bottom: ${rem(16)};
   margin-left: -${rem(100)};
