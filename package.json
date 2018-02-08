@@ -22,6 +22,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "start:storybook": "start-storybook -p 9999 -c .storybook",
-    "build:storybook": "build-storybook -c .storybook -o storybook"
+    "build:storybook": "build-storybook -c .storybook -o storybook",
+    "deploy": "npm run build && npm run build:storybook",
+    "version": "npm run deploy && git add -f build/ storybook/"
   }
 }
