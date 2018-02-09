@@ -7,4 +7,4 @@ const Greeting = (props) => (
     </h1>
 );
 
-storiesOf('Slides').add('Props', () => <Greeting name={'Alan'}/>);
+storiesOf('Slides', module).add('Props', () => <Greeting name={'Alan'}/>);

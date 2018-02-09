@@ -29,4 +29,4 @@ class Timer extends React.Component {
     }
 }
 
-storiesOf('Slides').add('Lifecycle Hooks', () => <Timer />);
+storiesOf('Slides', module).add('Lifecycle Hooks', () => <Timer />);

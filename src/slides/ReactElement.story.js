@@ -7,4 +7,4 @@ const HelloWorld = React.createElement(
     'Hello, world!' // children
 );
 
-storiesOf('Slides').add('React Element', () => HelloWorld);
+storiesOf('Slides', module).add('React Element', () => HelloWorld);

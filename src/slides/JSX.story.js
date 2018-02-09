@@ -7,4 +7,4 @@ const HelloWorld = (
     </h1>
 );
 
-storiesOf('Slides').add('JSX', () => HelloWorld);
+storiesOf('Slides', module).add('JSX', () => HelloWorld);

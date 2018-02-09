@@ -1,5 +1,5 @@
-import {storiesOf} from '@storybook/react';
 import React from 'react';
+import { storiesOf } from '@storybook/react';
 
 const ListItem = ({ value }) => (
     <li>{value}</li>
@@ -18,4 +18,4 @@ const NumberList = ({ numbers }) => {
 
 const numbers = [1, 2, 3, 4, 5];
 
-storiesOf('Slides').add('Lists', () => <NumberList numbers={numbers}/>);
+storiesOf('Slides', module).add('Lists', () => <NumberList numbers={numbers}/>);

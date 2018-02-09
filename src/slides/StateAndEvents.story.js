@@ -26,4 +26,4 @@ class Counter extends React.Component {
     }
 }
 
-storiesOf('Slides').add('State and Events', () => <Counter />);
+storiesOf('Slides', module).add('State and Events', () => <Counter />);

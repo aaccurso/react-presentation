@@ -13,6 +13,7 @@ import SlideProps from './slides/SlideProps';
 import SlideLifecycleHooks from './slides/SlideLifecycleHooks'
 import SlideStateAndEvents from './slides/SlideStateAndEvents';
 import SlideLists from './slides/SlideLists';
+import SlideForms from './slides/SlideForms';
 
 // Import theme
 import createTheme from 'aaccurso-spectacle/lib/themes/default';
@@ -43,6 +44,7 @@ export default class Presentation extends Component {
         <SlideStateAndEvents/>
         <SlideLifecycleHooks/>
         <SlideLists/>
+        <SlideForms/>
       </Deck>
     );
   }
