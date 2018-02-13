@@ -6,11 +6,6 @@ import { Slide, Heading, Text } from 'aaccurso-spectacle';
 
 // Import components
 import ReactLive from '../components/ReactLive';
-import InlineCode from '../components/InlineCode';
-import AsideLink from '../components/AsideLink';
-
-// Import styles
-import {secondary} from '../utils/colors';
 
 //language=JavaScript
 const code = `
@@ -59,7 +54,7 @@ export default class SlideForms extends Component {
       <Slide>
         <Heading size={3}>Forms</Heading>
         <Text>
-            @TODO
+            <strong>One-way binding</strong> of input value. Only a change in state can trigger a new render. To update the state we subscribe to the input's events.
         </Text>
         <ReactLive code={code} />
       </Slide>
