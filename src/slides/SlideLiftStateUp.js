@@ -11,7 +11,7 @@ import AsideLink from '../components/AsideLink';
 import { secondary } from '../utils/colors';
 
 // Import assets
-import CurrencyConverterAppImage from './assets/CurrencyConverterApp.png';
+import CurrencyConverterImage from './assets/CurrencyConverter.png';
 
 export default class SlideLiftStateUp extends Component {
   render() {
@@ -21,7 +21,7 @@ export default class SlideLiftStateUp extends Component {
         <Text>
             To <strong>share state</strong> between components you should rely on the <AsideLink color={secondary} href="https://reactjs.org/docs/state-and-lifecycle.html#the-data-flows-down" target="_blank">top-down data flow</AsideLink>.
         </Text>
-        <Image src={CurrencyConverterAppImage}/>
+        <Image src={CurrencyConverterImage}/>
       </Slide>
     );
   }
