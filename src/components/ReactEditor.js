@@ -27,7 +27,7 @@ const StyledEditor = styled(LiveEditor)`
   overflow: scroll;
 `;
 
-export default class ReactLive extends Component {
+export default class ReactEditor extends Component {
   static propTypes = {
     code: PropTypes.string.isRequired
   };

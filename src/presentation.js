@@ -14,6 +14,7 @@ import SlideLifecycleHooks from './slides/SlideLifecycleHooks'
 import SlideStateAndEvents from './slides/SlideStateAndEvents';
 import SlideLists from './slides/SlideLists';
 import SlideForms from './slides/SlideForms';
+import SlideLiftStateUp from './slides/SlideLiftStateUp';
 
 // Import theme
 import createTheme from 'aaccurso-spectacle/lib/themes/default';
@@ -45,6 +46,7 @@ export default class Presentation extends Component {
         <SlideLifecycleHooks/>
         <SlideLists/>
         <SlideForms/>
+        <SlideLiftStateUp/>
       </Deck>
     );
   }
